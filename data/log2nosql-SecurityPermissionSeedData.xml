@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the log2nosql Component." permissionId="log2nosql_VIEW"/>
+    <SecurityPermission description="Create operations in the log2nosql Component." permissionId="log2nosql_CREATE"/>
+    <SecurityPermission description="Update operations in the log2nosql Component." permissionId="log2nosql_UPDATE"/>
+    <SecurityPermission description="Delete operations in the log2nosql Component." permissionId="log2nosql_DELETE"/>
+    <SecurityPermission description="ALL operations in the log2nosql Component." permissionId="log2nosql_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="log2nosql_ADMIN"/>
+
+</entity-engine-xml>

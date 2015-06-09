@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    
+    <SystemProperty
+        systemPropertyId="logHostName" systemPropertyValue="localhost" systemResourceId="log2nosql" 
+        description="MongoDb Host Name" />
+    
+    <SystemProperty
+        systemPropertyId="logHostPort" systemPropertyValue="27017" systemResourceId="log2nosql" 
+        description="MongoDb Host Port Number" />
+    
+    <SystemProperty
+        systemPropertyId="LogDb" systemPropertyValue="ofbiz" systemResourceId="log2nosql" 
+        description="MongoDb Log Db Name" />
+    
+    <SystemProperty
+        systemPropertyId="logDbUserName" systemPropertyValue="ofbiz" systemResourceId="log2nosql" 
+        description="MongoDb UserName" />
+    
+    <SystemProperty
+        systemPropertyId="logDbPassword" systemPropertyValue="ofbiz" systemResourceId="log2nosql" 
+        description="MongoDb Password" />
+    
+    <SystemProperty
+        systemPropertyId="LogDbCollection" systemPropertyValue="applicationLog" systemResourceId="log2nosql" 
+        description="MongoDb Collection Name" />
+    
+</entity-engine-xml>

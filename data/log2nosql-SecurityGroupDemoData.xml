@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="log2nosql_ADMIN"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="log2nosql_CREATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="log2nosql_DELETE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="log2nosql_UPDATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="log2nosql_VIEW"/>
+    <SecurityGroupPermission groupId="VIEWADMIN" permissionId="log2nosql_VIEW"/>
+    <SecurityGroupPermission groupId="BIZADMIN" permissionId="log2nosql_ADMIN"/>
+</entity-engine-xml>
