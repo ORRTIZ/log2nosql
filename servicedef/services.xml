@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/services.xsd">
+    
+    <description>Services of log2nosql</description>
+    <vendor></vendor>
+    <version>1.0</version>
+
+    <service name="getLogFromNoSqlDb" engine="java"
+        location="com.orrtiz.log.NoSqlLogServices" invoke="getLogFromNoSqlDb" auth="true" use-transaction="false">
+        <description>Gets log from NoSql Db</description>
+        <attribute name="logList" type="List" mode="OUT" optional="false"/>
+    </service>
+    
+    <service name="searchNoSqlLog" engine="java"
+        location="com.orrtiz.log.NoSqlLogServices" invoke="searchNoSqlLog" auth="true" use-transaction="false">
+        <description>Search log from NoSql Db</description>
+        <attribute name="searchText" type="String" mode="IN" optional="true"/>
+        <attribute name="fatal" type="String" mode="IN" optional="true"/>
+        <attribute name="error" type="String" mode="IN" optional="true"/>
+        <attribute name="warning" type="String" mode="IN" optional="true"/>
+        <attribute name="info" type="String" mode="IN" optional="true"/>
+        <attribute name="logList" type="List" mode="OUT" optional="false"/>
+    </service>
+    
+</services>
