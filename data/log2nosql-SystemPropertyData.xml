@@ -11,18 +11,18 @@
     
     <SystemProperty
         systemPropertyId="LogDb" systemPropertyValue="ofbiz" systemResourceId="log2nosql" 
-        description="MongoDb Log Db Name" />
+        description="MongoDb LogDb Name" />
     
     <SystemProperty
         systemPropertyId="logDbUserName" systemPropertyValue="ofbiz" systemResourceId="log2nosql" 
-        description="MongoDb UserName" />
+        description="MongoDb logDb UserName" />
     
     <SystemProperty
         systemPropertyId="logDbPassword" systemPropertyValue="ofbiz" systemResourceId="log2nosql" 
-        description="MongoDb Password" />
+        description="MongoDb LogDb Password" />
     
     <SystemProperty
         systemPropertyId="LogDbCollection" systemPropertyValue="applicationLog" systemResourceId="log2nosql" 
-        description="MongoDb Collection Name" />
+        description="MongoDb LogDb Collection Name" />
     
 </entity-engine-xml>
